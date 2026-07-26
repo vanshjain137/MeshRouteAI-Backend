@@ -33,18 +33,30 @@ This backend is split into isolated services for high availability and targeted 
 
 ## 🚀 Getting Started
 
+### Prerequisites
+* Docker and Docker Compose installed.
+* Node.js (if running locally without Docker).
+
+### Installation (Docker)
+
 1. Clone the repository:
-git clone https://github.com/vanshjain137/meshrouteai-backend.git
+```bash
+git clone [https://github.com/vanshjain137/meshrouteai-backend.git](https://github.com/vanshjain137/meshrouteai-backend.git)
+```
 
 2. Navigate into the directory:
+```bash
 cd meshrouteai-backend
+```
 
-3. Create a .env file in the root directory (refer to .env.example for required API keys, DB URIs, and Razorpay secrets).
+3. Create a `.env` file in the root directory (refer to `.env.example` for required API keys, DB URIs, and Razorpay secrets).
 
 4. Build and start the microservices using Docker Compose:
+```bash
 docker-compose up --build
+```
 
-5. The API Gateway will now be accessible locally.
+5. The API Gateway will now be accessible at `http://localhost:PORT`.
 
 ## 🔗 Links
-* **Frontend Repository:** https://github.com/vanshjain137/meshrouteai-frontend
+* **Frontend Repository:** [https://github.com/vanshjain137/meshrouteai-frontend](https://github.com/vanshjain137/meshrouteai-frontend)
