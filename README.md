@@ -18,6 +18,15 @@ This backend is split into isolated services for high availability and targeted 
 * **Chat Service:** Distributed chat storage managed via MongoDB and cached with Redis.
 * **Billing Service:** Secure, credit-based subscription management via Razorpay.
 
+## 🛠️ Infrastructure & Deployment
+
+* **Cloud Provider:** AWS EC2 (Ubuntu)
+* **Containerization:** Docker & Docker Compose (5 interconnected microservices: Gateway, Auth, Chat, Agent, Billing)
+* **Web Server / Reverse Proxy:** Nginx
+* **Security:** Let's Encrypt SSL/TLS (HTTPS enabled)
+* **Databases:** MongoDB Atlas (Persistent State) & Upstash Redis (Caching/Sessions via TLS)
+* **Networking:** Configured internal Docker bridge networks and edge proxy routing to seamlessly connect a Vercel-hosted frontend to the EC2 backend, bypassing client-side ad-blockers and mixed-content restrictions.
+
 ## ✨ Key Features
 
 * **Advanced RAG Capabilities:** Integrates Qdrant Vector DB and Filebase S3 for highly accurate context retrieval.
