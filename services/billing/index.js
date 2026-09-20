@@ -5,7 +5,7 @@ import router from "./routes/billing.route.js"
 
 
 
-const port = process.env.PORT
+const port = 8004
 
 const app = express()
 

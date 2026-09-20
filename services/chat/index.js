@@ -5,7 +5,7 @@ import router from "./routes/chat.route.js"
 
 
 
-const port = process.env.PORT
+const port = 8002
 
 const app = express()
 

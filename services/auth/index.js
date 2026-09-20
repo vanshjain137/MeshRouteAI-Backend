@@ -5,7 +5,7 @@ import router from "./routes/auth.route.js"
 
 
 
-const port = process.env.PORT
+const port = 8001
 
 const app = express()
 
