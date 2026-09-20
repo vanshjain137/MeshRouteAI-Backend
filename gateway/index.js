@@ -13,6 +13,7 @@ import morgan from "morgan"
 const port = process.env.PORT
 
 const app = express()
+app.set("trust proxy", 1)
 
 app.use(cors({
     origin: process.env.FRONTEND_URL,
