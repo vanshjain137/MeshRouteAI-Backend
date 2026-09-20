@@ -7,7 +7,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"node gateway/index.js\" \"node services/auth/index.js\" \"node services/chat/index.js\" \"node services/agent/index.js\" \"node services/billing/index.js\""
+    "start": "concurrently \"PORT=8000 node --max-old-space-size=80 gateway/index.js\" \"PORT=8001 node --max-old-space-size=80 services/auth/index.js\" \"PORT=8002 node --max-old-space-size=80 services/chat/index.js\" \"PORT=8003 node --max-old-space-size=80 services/agent/index.js\" \"PORT=8004 node --max-old-space-size=80 services/billing/index.js\""
   },
   "dependencies": {
     "concurrently": "^10.0.5",
