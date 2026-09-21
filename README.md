@@ -5,6 +5,13 @@
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
+## 🌐 Live Demo & Links
+* **Live App:** [https://meshroute-ai.vercel.app](https://meshroute-ai.vercel.app)
+* **Frontend Repository:** [https://github.com/vanshjain137/meshrouteai-frontend](https://github.com/vanshjain137/meshrouteai-frontend)
+
+https://github.com/user-attachments/assets/0bd3403a-2b3a-4fa5-bf10-d6c8bf405de4
+
+
 The highly scalable, distributed backend infrastructure for **MeshRoute AI**. Architected using Docker on AWS EC2, this system utilizes a microservices approach to handle AI routing, advanced Retrieval-Augmented Generation (RAG), and secure subscription billing.
 
 ---
