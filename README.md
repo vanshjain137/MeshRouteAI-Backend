@@ -74,5 +74,13 @@ docker-compose up --build
 
 5. The API Gateway will now be accessible at `http://localhost:PORT`.
 
-## 🔗 Links
-* **Frontend Repository:** [https://github.com/vanshjain137/meshrouteai-frontend](https://github.com/vanshjain137/meshrouteai-frontend)
+## 👤 Author & Links
+
+**Vansh Jain**
+- **LinkedIn:** [linkedin.com/in/vanshjain137](https://www.linkedin.com/in/vanshjain137)
+- **GitHub:** [@vanshjain137](https://github.com/vanshjain137)
+- **Portfolio:** [https://vansh-os-three.vercel.app/](https://vansh-os-three.vercel.app/)
+
+**Project Links:**
+- **Live App:** [meshroute-ai.vercel.app](https://meshroute-ai.vercel.app)
+- **Frontend Repository:** [github.com/vanshjain137/meshrouteai-frontend](https://github.com/vanshjain137/meshrouteai-frontend)
